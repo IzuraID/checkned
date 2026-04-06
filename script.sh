@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Masukkan Nomor Peserta (contoh: 10): " X
+read -p "Masukkan Nomor Peserta (contoh: 10): " X < /dev/tty
 
 if ! command -v fping &> /dev/null; then
   echo "fping belum terinstall. Menginstall..."
