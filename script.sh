@@ -63,7 +63,7 @@ echo "=============================="
 
 echo ""
 echo "[ROOT DOMAIN]"
-domain="itnsa.id"
+domain="lks2026.diy"
 a_record=$(dig +short $domain A)
 
 if [ -n "$a_record" ]; then
